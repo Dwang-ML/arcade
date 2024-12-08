@@ -88,14 +88,14 @@ See [this link](https://black.readthedocs.io/en/stable/integrations/editors.html
 Black integration for your specific editor.
 
 The following command will run black for you if you do not want to configure your editor to do it. It can be
-a good idea to run this command when you are finished working anyways, as our CI will use this to check that
+a good idea to run this command when you are finished working anyway, as our CI will use this to check that
 the formatting is correct.
 
 ```bash
 python make.py format
 ```
 
-In addition to Black, this will sort the imports using [Ruff](https://docs.astral.sh/ruff/). If you want to setup
+In addition to Black, this will sort the imports using [Ruff](https://docs.astral.sh/ruff/). If you want to set up
 your editor to run this, please see [this link](https://docs.astral.sh/ruff/integrations/) for more information on
 Ruff integration for your specific editor.
 
@@ -111,7 +111,7 @@ Args:
 ```
 
 * `Args:` should be used for all parameters
-* `Returns:` can be used if the return value needs additional explanation outside of
+* `Returns:` can be used if the return value needs additional explanation outside
    the current docstring. If the return type is already clear from type annotation it
    can be omitted.
 * `Raises:` can be used if the function raises exceptions that need to be documented
@@ -181,7 +181,7 @@ in this repo for current tests.
 
 First, run the below command to run our linting tools automatically. This will run Mypy
 and Ruff against Arcade. The first run of this may take some as MyPy will not have any
-caches built up. Sub-sequent runs will be much faster.
+caches built up. Subsequent runs will be much faster.
 
 ```bash
 python make.py lint
@@ -266,7 +266,7 @@ sudo apt install texlive-latex-extra
 To reduce the large (300 MB+) install size of the second package, you
 may be able to use the `--no-install-recommends` flag.
 
-Other platforms may require different install steps.
+Other platforms may require different installation steps.
 
 ##### Building
 
