@@ -11,7 +11,7 @@ Arcade welcomes contributions, including:
 If you're looking for a way to contribute, try checking
 [the currently active issues](https://github.com/pythonarcade/arcade/issues)
 for one that needs work. If you're new to programming or contributing, check for the
-label `good first issue`, these are issues which have been identified as good candidates for first time contributors.
+label `good first issue`, these are issues that have been identified as good candidates for first time contributors.
 
 Notifying us about issues in the code and documentation is also a valuable contribution.
 
@@ -112,11 +112,11 @@ Args:
 
 * `Args:` should be used for all parameters
 * `Returns:` can be used if the return value needs additional explanation outside
-   the current docstring. If the return type is already clear from type annotation it
+   the current docstring. If the return type is already clear from type annotation, it
    can be omitted.
 * `Raises:` can be used if the function raises exceptions that need to be documented
 * `Yields:` can be used if the function is a generator and yields values
-* `Attributes:` we should try to avoid and instead document the attributes in the code
+* `Attributes:` we should try to avoid it and instead document the attributes in the code
 * Types are visible in the api docs. It's not mandatory to include types in docstring,
   however, simple types like `int`, `str`, `float`, `bool` can be included.
 * Using `optional` is a good way to indicate that a parameter is optional.
@@ -145,8 +145,8 @@ more discussion on this topic.
 # type: ignore  # pending https://github.com/pyglet/pyglet/issues/843
 ```
 
-This links to an issue in the 3rd party library that is causing the type error.
-This oddly-specific syntax is compatible with both mypy and pyright.
+This links to an issue in the third party library that is causing the type error.
+This oddly specific syntax is compatible with both mypy and pyright.
 See [this issue](https://github.com/pythonarcade/arcade/issues/1789) for more information.
 
 ### Use pre-commit hooks to automatically run formatting
