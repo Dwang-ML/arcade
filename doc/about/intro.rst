@@ -22,7 +22,6 @@ Community driven
 
 Arcade is a community-driven project, and we rely on support from users like you.
 You don’t need to be an expert programmer or game developer to contribute.
-You can help by reporting bugs, suggesting improvements, identifying documentation issues, or sharing your projects with us.
 
 * More information about ways to contribute: :ref:`how-to-contribute`.
 * Also see :ref:`community-locations` for more information about where to find the
